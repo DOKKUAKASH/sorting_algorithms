@@ -1,0 +1,11 @@
+loop through array 
+for(i -> arr.length)
+another nested for loop 
+for(1 -> arr.length)
+comparing consective terms
+if(arr[i]>arr[j])
+swap these two 
+temporary variable iniated to arr[i] value
+int temp= arr[i];
+arr[i] = arr[j]
+arr[j]=temp

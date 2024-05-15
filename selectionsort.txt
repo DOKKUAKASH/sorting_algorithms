@@ -1,0 +1,19 @@
+loop through array
+for(i -> arr.length)
+initialising min value to 0
+int min=0
+initialising pointer to leftmost element
+int p=arr[i];
+int temp=p;
+inner nested loop from i+1 to array length
+for(j=i+1 -> arr.length)
+initialise min to arr[j]
+find min element in array 
+if(min<arr[j])
+assign the minimum element to min
+compare(check) min value with pointer and swap if p>min 
+if(p>min)
+p=min
+int min=p
+
+
